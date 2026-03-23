@@ -1,0 +1,16 @@
+pkgbase = ferrumc
+	pkgdesc = Ferrum-language compiler — systems programming with compile-time memory safety
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://ferrum-language.github.io/Ferrum/
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	depends = llvm18-libs
+	provides = ferrumc
+	source_x86_64 = ferrumc-0.3.0-linux-x86_64.tar.gz::https://github.com/Ferrum-Language/Ferrum/releases/download/v0.3.0/ferrumc-v0.3.0-linux-x86_64.tar.gz
+	sha256sums_x86_64 = 1cea7ef7eb58426fe8ec5942d16bee985e218a5997028fc05f137a0c31dd405b
+	source_aarch64 = ferrumc-0.3.0-linux-aarch64.tar.gz::https://github.com/Ferrum-Language/Ferrum/releases/download/v0.3.0/ferrumc-v0.3.0-linux-aarch64.tar.gz
+	sha256sums_aarch64 = 9284560230b179cfa7d78dea6af1d1d3abd5379279e7aa8ecb2be8262e236fca
+
+pkgname = ferrumc
